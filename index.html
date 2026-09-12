@@ -10,13 +10,15 @@
         h1 { font-size: 3rem; margin-bottom: 10px; color: #4F46E5; }
         p { color: #9CA3AF; font-size: 1.2rem; line-height: 1.6; }
     </style>
-    <!-- INJECTING YOUR LIVE DEVELOPER WIDGET SCRIPT -->
-    <script src="widget.js"></script>
 </head>
 <body>
     <div class="hero">
         <h1>Local Business Staging Area</h1>
         <p>This mimics a client's existing business site. Your floating AI receptionist bubble should generate automatically in the bottom right corner via cloud pipeline orchestration.</p>
     </div>
+
+    <!-- THE FIX: PLACING THE SCRIPT HERE LETS THE PAGE LOAD FIRST -->
+    <script src="widget.js"></script>
 </body>
 </html>
+
