@@ -17,7 +17,7 @@
     chatContainer.style.justifyContent = 'center';
     chatContainer.style.zIndex = '999999';
     chatContainer.style.fontSize = '30px';
-    chatContainer.innerHTML = '🤖'; 
+   chatContainer.innerHTML = '🤖';
     
     // 2. Click interaction logic to launch the AI receptionist
     chatContainer.onclick = function() {
