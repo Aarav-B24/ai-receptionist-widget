@@ -18,7 +18,7 @@
   // Configurable Integration
   // --------------------------
   var CONFIG = {
-    iframeSrc: 'https://example.com/your-calendly-or-calcom-or-assistant-endpoint',
+    iframeSrc: 'https://creator.voiceflow.com/share/6aa5fd1485d52ad39ce609ca/environment/main/draft,
     zIndex: 999999,
     fabSize: 65,
     chatWidth: 380,
