@@ -11,7 +11,7 @@
 
   var CONFIG = {
     // FIX: This is the correct, public URL format that streams your specific bot brain
-    iframeSrc: 'https://voiceflow.com',
+  iframeSrc: 'https://voiceflow.com',
     zIndex: 999999,
     fabSize: 65,
     chatWidth: 380,
