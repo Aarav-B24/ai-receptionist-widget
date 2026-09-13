@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Agency Staging Site</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background-color: #0B0B0E; color: #FFFFFF; margin: 0; padding: 40px; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 85vh; }
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background-color: #0B0B0E; color: #FFFFFF; margin: 0; padding: 40px; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 85vh; }
         .hero { text-align: center; max-width: 600px; }
         h1 { font-size: 2.5rem; color: #6366F1; margin-bottom: 12px; }
         p { color: #8E8E93; font-size: 1.1rem; line-height: 1.5; }
@@ -20,22 +20,21 @@
     <!-- MAIN PORTFOLIO ROOT SCRIPT -->
     <script src="widget.js"></script>
 
-    <!-- NATIVE B2B VOICEFLOW INTELLIGENT EMISSION ENGINE -->
+    <!-- NATIVE B2B VOICEFLOW INTELLIGENT WEBCHAT ENGINE -->
     <script type="text/javascript">
       (function(d, t) {
           var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
           v.onload = function() {
             window.voiceflow.chat.load({
-              verify: { projectId: '6aa5fd1485d52ad39ce609ca' },
-              url: 'https://voiceflow.com',
-              version: {
-                url: 'https://voiceflow.com'
-              }
+              verify: { projectID: '6aa5fd1485d52ad39ce609ca' },
+              url: 'https://general-runtime.voiceflow.com',
+              versionID: 'production'
             });
           };
-          v.src = 'https://voiceflow.com'; v.type = 'text/javascript';
+          v.src = 'https://cdn.voiceflow.com/widget/bundle.mjs'; v.type = 'text/javascript';
           s.parentNode.insertBefore(v, s);
       })(document, 'script');
     </script>
 </body>
 </html>
+
